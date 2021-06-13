@@ -1,0 +1,5 @@
+@import "base/global";
+@import "layout/global";
+@import "media-queries";
+
+// Command to compile SCSS: npx sass --watch src/scss:public/stylesheets

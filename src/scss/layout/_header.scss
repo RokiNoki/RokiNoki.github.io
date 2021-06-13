@@ -1,0 +1,66 @@
+@use "../abstracts/variables" as *;
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.5rem 5%;
+  background-color: $header-color;
+}
+
+.logo {
+  color: white;
+  font-size: 2.5rem;
+}
+
+.nav-links {
+  list-style-type: none;
+  font-size: 1.3rem;
+  transition: all 0.3s ease 0s;
+  li {
+    display: inline-block;
+    padding: 0 1.25rem;
+    border-bottom: 3px solid #21232a;
+
+    a {
+      font-family: "Roboto";
+
+      &:hover {
+        color: #15b0e4;
+      }
+    }
+  }
+}
+
+.cta {
+  button {
+    margin-left: 1.8rem; // this is so the button is seperated from the other list items
+    font-size: 1.3rem;
+    padding: 0.5rem 1.5rem;
+    background-color: rgb(20, 180, 250, 1);
+    border-style: none; // removes the outline around the button
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+
+    &:hover {
+      background-color: rgba(20, 180, 250, 0.8);
+    }
+  }
+}
+
+.toggle-btn {
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  width: 45px;
+  height: 45px;
+  cursor: pointer;
+  .bar {
+    height: 5px;
+    width: 100%;
+    margin: 5px 0;
+    background-color: white;
+    border-radius: 5px;
+    transition: all 0.4s ease-in-out;
+  }
+}

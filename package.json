@@ -1,0 +1,26 @@
+{
+  "name": "rokinoki.github.io",
+  "version": "1.0.0",
+  "description": "This is my [Website](https://rokinoki.github.io), currently under Construction. This is the branch where i will be making the new design.",
+  "main": "dist/index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RokiNoki/RokiNoki.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RokiNoki/RokiNoki.github.io/issues"
+  },
+  "homepage": "https://github.com/RokiNoki/RokiNoki.github.io#readme",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.0.0-beta.2",
+    "parcel": "*"
+  }
+}

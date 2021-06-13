@@ -1,0 +1,39 @@
+@media only screen and (max-width: 768px) {
+  .nav-links {
+    background: linear-gradient(45deg, #292c34, #252831);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    transform: translateY(-100%); // moves off screen
+
+    &.open {
+      transform: translateY(0); // fills the entire screen
+    }
+  }
+
+  .cta button {
+    margin-left: 0; //reseting the margin-left
+  }
+
+  .toggle-btn {
+    display: flex;
+    // Animations
+    &.open .bar {
+      &.a {
+        transform: rotate(45deg) translate(11px, 10px);
+      }
+      &.b {
+        background-color: transparent;
+      }
+      &.c {
+        transform: rotate(-45deg) translate(11px, -10px);
+      }
+    }
+  }
+}
