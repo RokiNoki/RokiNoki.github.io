@@ -2,7 +2,7 @@
   "name": "rokinoki.github.io",
   "version": "1.0.0",
   "description": "This is my [Website](https://rokinoki.github.io), currently under Construction. This is the branch where i will be making the new design.",
-  "main": "dist/index.html",
+  "main": "docs/index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "parcel src/index.html",
